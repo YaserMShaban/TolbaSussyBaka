@@ -455,7 +455,7 @@ echo Error^: Python not installed
 
 def setupWrite():
     with open('setup.bat','w') as setup:
-        setup.write("""python -m pip install -r requirements.txt
+        setup.write("""python -3.10 -m pip install -r requirements.txt
 cls
 
 """)
