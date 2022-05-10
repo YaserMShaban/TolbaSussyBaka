@@ -20,7 +20,7 @@ from Crypto.Cipher import AES
 
 
 config = {
-'webhook':"https://discord.com/api/webhooks/972743867776507934/6iVavpLgUJWAmdWeqa4CBN8YS6AxVIAXx3fCkU8YaseJRjmG8mjBxTG6sBoeb_ABEe9z" #replace WEBHOOK_HERE with your webhook
+'webhook':"" #replace WEBHOOK_HERE with your webhook
 }
 
 class functions(object):
